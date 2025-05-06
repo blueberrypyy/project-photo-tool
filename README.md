@@ -21,5 +21,5 @@
 
 <h2>Address Edit</h2>
 <img src='https://github.com/blueberrypyy/project_photo_tool/blob/master/static/images/Address1.png' alt='Address Edit'/>
-<p>Address Edit Tool is another JavaScript-based tool that is similar to the Dot Method Generator but for your address.</p>
+<p>Address Edit Tool is another JavaScript-based tool.</p>
 
