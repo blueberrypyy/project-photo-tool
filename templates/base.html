@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+{% load static %}
+<head>
+    <meta charset='utf-8' name='viewport' content='width=dive-width, initial-scale=1, shrink-to-fit=no'>
+    <title>{% block title %}rinsr.tools{% endblock title %}</title>
+
+    <!-- Bootstrap CSS/JS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css'></script>
+    <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js'></script>
+    <link rel='stylesheet' href='{% static "css/base.css" %}'></link>
+</head> 
+
+
+
+<!--body style='background-image: linear-gradient(to right, #2b2b2b, #1a1a1a);'-->
+<!--body style='background-image: url(https://images.pexels.com/photos/3586966/pexels-photo-3586966.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2); background-size: cover;'-->
+<body>
+    {% include 'navbar.html' %}
+
+
+{% block content %}
+{% endblock content %}
+
+<footer class='mt-5' style=''>
+    <center><a class='footer-text' href='{% url "about" %}' style='text-decoration: none;'>Handmade with 💙 ~ MoonBeam</a></center>
+    <div class='d-flex me-4'>
+        <p class='ms-auto mt-5'><a href='{% url "about" %}' style='color: var(--theme-sub-text); text-decoration: none;'>version: 1.05.00beta</a></p>
+    </div>
+</footer>
+
+
+
+</body>
+

@@ -1,0 +1,126 @@
+{% extends 'base.html' %}
+
+{% block content%}
+
+<div class='container'>
+    <div class='row mt-5'>
+        <div class='col-xxs-1 col-xs-1 col-sm-2 col-md-2 col-lg-2'></div>
+
+            <div class='container'>
+            <div class='col-12 col-sm-12 col-md-10 col-lg-8 col-xl-7 mx-auto'>
+                <h1>About rinsr.tools</h2>
+                <p>rinsr.tools allows you to take control of your privacy by viewing and removing the underlying data points contained in your image files. Supported filetypes include: JPEG, TIFF, RGB, YCbCr, RIFF, and WAV</p>
+                <p>Every photo contains some extra data about the file: the file format, the device it was taken on, and even the GPS location of the photo.
+                This is called <strong><a href='https://en.wikipedia.org/wiki/Exif' target='_blank' rel='noreferrer'>exif data<a></strong> (Exchangeable image file format).
+                if you upload that photo to the internet, anybody could potentially view this exif data. Some websites remove this data by 
+                default upon upload, but you may not always be sure if it does or doesn't.</p>
+                <p>By using rinsr.tools, you can be sure to know exactly what type of data is contained in your photos! We store zero data! Your privacy is valued by using rinsr.tools. Thank you for checking it out! ☺️</p>
+
+</br>
+</br>
+<h1>Patch Notes</h1>
+
+<div class='row mt-4'>
+
+<p class="d-inline-flex gap-1">
+  <a class="" data-bs-toggle="collapse" href="#v4" role="button" aria-expanded="false" aria-controls="collapseExample">
+    1.05 ▼
+  </a>
+</p>
+
+
+<div class="collapse" id="v4">
+   <ul>
+        <li>Exif data is now available to download as .txt file</li>
+        <li>Exif data is now available to edit</li>
+        <li>Fixed output text auto-wrapping</li>
+    </ul> 
+</div>
+                        </div>
+
+<div class='row mt-4'>
+
+<p class="d-inline-flex gap-1">
+  <a class="" data-bs-toggle="collapse" href="#v3" role="button" aria-expanded="false" aria-controls="collapseExample">
+    1.04 ▼
+  </a>
+</p>
+
+
+<div class="collapse" id="v3">
+   <ul>
+        <li>rinsr.tools domain officially supported!!</li>
+        <li>Fixed error 400 problem</li>
+        <li>Tested for mobile</li>
+    </ul> 
+</div>
+                        </div>
+
+<div class='row mt-4'>
+
+<p class="d-inline-flex gap-1">
+  <a class="" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+    1.03 ▼
+  </a>
+</p>
+<div class="collapse" id="collapseExample">
+    <ul>
+        <li>Added a new page containing patch notes/info about tools</li>
+        <li>Added the version number to the bottom of footer. Click this to view about page</li>
+        <li>Cleaned up ui elements</li>
+        <li>Update Text</li>
+    </ul>
+</div>
+
+<div class='row mt-4'>
+
+<p class="d-inline-flex gap-1">
+  <a class="" data-bs-toggle="collapse" href="#v2" role="button" aria-expanded="false" aria-controls="collapseExample">
+    1.02 ▼
+  </a>
+</p>
+
+
+<div class="collapse" id="v2">
+   <ul>
+        <li>Added a new feature that lets you switch between 2 colored themes</li>
+        <li>Cleaned up ui elements</li>
+        <li>Update Text</li>
+    </ul> 
+</div>
+                        </div>
+
+
+<div class='row mt-4'>
+
+<p class="d-inline-flex gap-1">
+  <a class="" data-bs-toggle="collapse" href="#v1" role="button" aria-expanded="false" aria-controls="collapseExample">
+    1.00 ▼
+  </a>
+</p>
+
+
+<div class="collapse" id="v1">
+   <ul>
+        <li>Site just went live</li>
+        <li>Exiftool, dotmethod, and address edit available on day one</li>
+    </ul> 
+</div>
+                        </div>
+
+        </div>
+
+        <div class='col-xxs-1 col-xs-1 col-sm-2 col-md-2 col-lg-2'></div>
+    </div>
+    </div>
+    </div>
+    </br>
+
+<script>
+    $('#myModal').on('shown.bs.modal', function () {
+  $('#myInput').trigger('focus')
+})
+    </script>
+
+
+{% endblock content %}

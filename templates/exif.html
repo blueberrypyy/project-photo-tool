@@ -1,0 +1,90 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<script src="https://cdn.jsdelivr.net/npm/exifreader"></script>
+
+
+<br>
+<div class='container'>
+
+    <div class='row'>
+    <div class='col-12 col-sm-12 col-md-10 col-lg-8 col-xl-7 mx-auto'>
+    <div class='shadow-lg p-4 rounded'>
+    <h2>Exif Data Viewer</h2>
+            <p>Drag your image into the box to view it's exif data.</p>
+            <!--p style='color:  #fb4934;'>Please note: this tool is in alpha stage. Exif data is only available to view. Exif removal and photo download function is coming soon</p-->
+    <hr/>
+
+        <div class='row'>
+            
+            <div class='col-6 col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6'>
+
+
+    <div class='d-flex' id='tool-tab'>
+        <label>Upload your image:</label>
+    </div>
+
+    
+                <!--alt drag and drop -->
+                <!--div class="image-upload-wrap">
+    <input class="file-upload-input" type='file' onchange="readURL(this);" accept="image/*" />
+    <div class="drag-text">
+      <h3>Drag and drop a file or select add Image</h3>
+    </div>
+  </div>
+  <div class="file-upload-content">
+    <img class="file-upload-image" src="#" alt="your image" />
+    </div-->
+
+                <!-- Original drag n drop --> 
+    <div class='image-upload-wrap mb-3'>
+    <div class="d-flex justify-content-center">
+      <label id="drop" class="" style='height: 7rem'>
+              <div class='span text-center mt-2'><img src='{% static "images/icons8-image-file-64.png" %}'></br>Drop your files here</div>
+            <input type="file" name="file_upload" class="invisible" />
+        </span>
+      </label>
+      </div>
+    </div>
+<button class='btn w-100 mb-3'>Rinse!</button>
+
+            </div>
+
+            <div class='col-6 col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6'>
+
+
+
+    <div class='d-flex' id='tool-tab'>
+        <label>Output:</label>
+        <button class='btn btn-sm ms-auto py-0' style='font-size: 0.8rem;' onclick = "downloadFile()">Save as .txt</button>
+    </div>
+
+<div class="d-flex p-2 rounded" style='display: inline-flex;'>
+
+        <textarea style='border: #181818; font-family: Consolas,Menlo,"courier new",monospace;' id="email-output" class='form-control' rows="16" wrap='off'></textarea>
+        <!--div id="results" style='font-family: Consolas,Menlo,"courier new",monospace;' class=""></div-->
+        </div>
+    </div>
+<!--textarea style='border: #181818; font-family: Consolas,Menlo,"courier new",monospace;' id="results" class='form-control' rows="16"></textarea-->
+<!--div class="d-flex p-2 rounded" style='height: 22rem; display: inline-flex;'-->
+
+        <div class='row'>
+        </div>
+
+    </div>
+    </div>
+    </div>
+
+</div>
+
+
+
+<script src='{% static "js/exifpage_photo_box.js" %}'></script>
+<script src="{% static 'js/exifpage_photo_upload.js' %}"></script>
+<script src="{% static 'js/exifpage_exif_reader.js' %}"></script>
+<script src='{% static "js/exif_dl_txt.js" %}'></script>
+
+
+{% endblock %}
