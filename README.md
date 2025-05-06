@@ -5,12 +5,12 @@
 
 <p>Project_photo_tool aka <a href='www.rinsr.tools'>rinsr.tools<a> is a web application that includes client-side tools written in JavaScript.</p>
 
-<p>rinsr.tools allows you to take control of your privacy by viewing and removing the underlying data points contained in your image files. Supported filetypes include: JPEG, TIFF, RGB, YCbCr, RIFF, and WAV</p>
-<p>Every photo contains some extra data about the file: the file format, the device it was taken on, and even the GPS location of the photo.
+<p>Every .jpg file contains underlying data about the file: the format, the device it was taken on, and even the GPS location of the photo.
 This is called <strong><a href='https://en.wikipedia.org/wiki/Exif' target='_blank' rel='noreferrer'>exif data<a></strong> (Exchangeable image file format).
-if you upload that photo to the internet, anybody could potentially view this exif data. Some websites remove this data by 
+When it comes to other files, howver, this is called <strong><a href='https://en.wikipedia.org/wiki/Metadata' target='_blank' rel='noreferrer'>metadata<a></strong>
+if you upload that photo to the internet, anybody could potentially view this hidden data. Some websites remove this data by 
 default upon upload, but you may not always be sure if it does or doesn't.</p>
-<p>By using rinsr.tools, you can be sure to know exactly what type of data is contained in your photos! We store zero data! Your privacy is valued by using rinsr.tools. Thank you for checking it out! ☺️</p>
+<p>By using rinsr.tools, you can be sure to know exactly what type of data is contained in your files! We store zero data! Your privacy is valued by using rinsr.tools. Thank you for checking it out! ☺️</p>
 
 </br> 
 <p>View the application here: <a href='https://exif-photo-tool.onrender.com/' target='_blank'>www.rinsr.tools</a></p>
