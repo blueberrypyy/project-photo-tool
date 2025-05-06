@@ -7,7 +7,7 @@
 
 <p>Every .jpg file contains underlying data about the file: the format, the device it was taken on, and even the GPS location of the photo.
 This is called <strong><a href='https://en.wikipedia.org/wiki/Exif' target='_blank' rel='noreferrer'>exif data<a></strong> (Exchangeable image file format).
-When it comes to other files, howver, this is called <strong><a href='https://en.wikipedia.org/wiki/Metadata' target='_blank' rel='noreferrer'>metadata<a></strong>
+When it comes to other files, howver, this is called <strong><a href='https://en.wikipedia.org/wiki/Metadata' target='_blank' rel='noreferrer'>metadata<a></strong>.
 if you upload that photo to the internet, anybody could potentially view this hidden data. Some websites remove this data by 
 default upon upload, but you may not always be sure if it does or doesn't.</p>
 <p>By using rinsr.tools, you can be sure to know exactly what type of data is contained in your files! We store zero data! Your privacy is valued by using rinsr.tools. Thank you for checking it out! ☺️</p>
