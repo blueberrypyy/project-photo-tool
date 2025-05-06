@@ -1,5 +1,7 @@
 <h1>PROJECT_PHOTO_TOOL</h1>
 
+<p> *This project is now deprecated and has moved to a private repository*</p>
+
 <p>Project_photo_tool is a web application that includes tools written in JavaScript.</p>
 <p>View the application here: <a href='https://exif-photo-tool.onrender.com/' target='_blank'>www.rinsr.tools</a></p>
 </br>
